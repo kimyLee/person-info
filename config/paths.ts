@@ -16,15 +16,15 @@ export default {
 
   // 测试环境
   test: {
-    base: '/tmp-web/',
+    base: '/',
     publicPath: '/',
     apiUrl: 'https://xxxxx.com',
   },
 
   // 正式环境
   prod: {
-    base: '/tmp-web/',
-    publicPath: '/',
+    base: '/',
+    publicPath: '/person-info/dist/',
     apiUrl: 'https://xxxxx.com',
   },
 };

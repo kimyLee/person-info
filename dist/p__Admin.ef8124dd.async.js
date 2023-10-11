@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcubyfun_template_web=self.webpackChunkcubyfun_template_web||[]).push([[551],{77667:function(m,t,n){n.r(t);var a=n(47368),e=n(18101),E=n(50959),_=n(11527),s=function(){var u=(0,e.useIntl)();return(0,_.jsx)(a._z,{content:u.formatMessage({id:"pages.admin.subPage.title",defaultMessage:"This page can only be viewed by admin"})})};t.default=s}}]);
