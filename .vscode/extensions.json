@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "wangzy.sneak-mark",
+    "streetsidesoftware.code-spell-checker",
+    "OBKoro1.korofileheader",
+    "intellsmi.comment-translate",
+    "iceworks-team.iceworks-style-helper"
+  ]
+}
