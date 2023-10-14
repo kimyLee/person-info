@@ -34,7 +34,9 @@ const Welcome: React.FC = () => {
         }
         if (Array.isArray(res.taskList)) {
           setTaskList(res.taskList);
-          console.log(taskList);
+        }
+        if (Array.isArray(res.recordList)) {
+          setRecordList(res.recordList);
         }
         if (res.money) {
           setMoney(res.money - 0);
@@ -297,7 +299,7 @@ const Welcome: React.FC = () => {
             {recordList.map((record, index) => (
               <li key={index}>
                 {record.title}-{record.cost}
-                <Button onClick={() => handleRebackTask(record)}>添加</Button>
+                <Button onClick={() => handleRebackRecord(record)}>添加</Button>
               </li>
             ))}
           </div>
